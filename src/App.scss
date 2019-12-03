@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+
+  &-logo {
+    height: 40vmin;
+  }
+
+  &-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  &-link {
+    color: #09d3ac;
+  }
+}
+
+.about-meetup {
+  h2 {
+    font-size: 30px;
+  }
+}
+
+.navbar {
+  background-color: #969696 !important;
+
+  &-nav .login-btn {
+    background-color: #09d3ac;
+    border-radius: 10px;
+    padding: 0 30px;
+  }
+}
+
+.container {
+  .jumbotron {
+    background: #f7f7f7;
+    box-shadow: 1px 6px 9px 0px #dadada;
+    border-radius: 10px;
+  }
+}
+
+.content-about-meetup {
+  .color-grey {
+    color: #a9a9a9;
+  }
+}
